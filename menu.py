@@ -272,16 +272,16 @@ elif choice == 9:
                        
                          
 elif choice == 10:
-                        
-   ahutor = "axelxs"
-   print("autor:", ahutor)
-   print("BotChat")
-   print ("escribe cualquier cosa")
-   b = 1
-   while True:
-    a = input("")
-    print ((b), (a))
-    b = b+1    
+       ahutor = "axelxs"
+       print("autor:", ahutor)
+       print("BotChat")
+       print ("escribe cualquier cosa")
+       c = "\033[32;m"
+       b = 1
+       while True:
+           a = input("")
+           print (("——"), (c), (b), (a))
+           b = b+1    
                         
                        
 elif choice == 11:
